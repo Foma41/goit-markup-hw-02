@@ -1,0 +1,230 @@
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+/**
+  |============================
+  | HEADER
+  |============================
+*/
+.header-nav {
+}
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.header-logo-light {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.list {
+}
+.header-list-item {
+}
+.list-adress {
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.list-adress:active {
+  color: #404bbf;
+}
+.list-adress:hover {
+  color: #2e2f42;
+}
+/**
+  |============================
+  | HERO
+  |============================
+*/
+.hero-section {
+  background: #2e2f42;
+}
+.hero-section-h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.btn {
+  background: #4d5ae5;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+/**
+  |============================
+  | BENEFITS
+  |============================
+*/
+.benefits-section {
+}
+.benefits-h2 {
+}
+.benefits-list-item {
+}
+.benefits-h3 {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.benefits-text {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+/**
+  |============================
+  | PRODUCTS
+  |============================
+*/
+.product-section {
+}
+.product-h2 {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.product-list-item {
+}
+/**
+  |============================
+  | OUR TEAM
+  |============================
+*/
+.team {
+}
+.team-h2 {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.team-list-item {
+}
+.team-h3 {
+  color: #2e2f42;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+.team-list-text {
+  color: #434455;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.footer {
+  background: #2e2f42;
+}
+.footer-logo-dark {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.header-nav {
+}
+.link {
+}
+.logo {
+}
+.header-logo-light {
+}
+.list {
+}
+.header-list-item {
+}
+.list-adress {
+}
+.cover {
+}
+.portfolio-btn:active {
+  color: #2e2f42;
+}
+.portfolio-btn:hover {
+  color: #404bbf;
+}
+.service-list-item {
+}
+.service {
+}
+.service-caption {
+}
+.services-descr {
+}
+.services-caption {
+}
+.services-list-item {
+}
