@@ -1,7 +1,10 @@
 :root{
-  --main-color-text:var(--main-color-text) 
+  --main-color-text:#2e2f42;
   --second-color-text: #434455;
-  
+  --accent-color:#404BBF;
+  --color-on-dark: #f4f4fd;
+  --background-button: #404bbf;
+  --background-color: #fff;
 
 }
 .list {
@@ -12,8 +15,8 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
-  background-color: #fff;
+  color: var(--main-color-text);
+  background-color: var(--background-color);
 }
 /**
   |============================
@@ -22,17 +25,17 @@
 */
 .header-nav {
 }
-.nav-link: {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.nav-link {
+color: var(--main-color-text);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
-.nav-link:active{background-color: #404bbf;}
-.nav-link:hover{background-color: #2e2f42;}
-.contact-link: {
-  color: #434455;
+.contact-link {
+  color: var(--second-color-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -48,7 +51,7 @@
   text-transform: uppercase;
 }
 .header-logo-light {
-  color: #2e2f42;
+  color: var(--main-color-text);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -66,37 +69,37 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.list-adress:active {
-  background-color: #404bbf;
-}
-.list-adress:hover {
-  background-color: #2e2f42;
-}
+.contact-link:active, 
+.contact-link:hover{color: var(--accent-color);}
+.nav-link:active,
+.nav-link:hover{color: var(--accent-color);}
 /**
   |============================
   | HERO
   |============================
 */
 .hero-section {
-  background: #2e2f42;
+  background: var(--main-color-text);
 }
 .hero-section-h1 {
-  color: #fff;
+  color: var(--background-color);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
 }
-.btn {
-  background: #4d5ae5;
-  color: #fff;
+.hero-btn {
+background-color:  #4D5AE5;
+  color: var(--background-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+.hero-btn:active
+.hero-btn:hover{background-color: #404BBF}
 /**
   |============================
   | BENEFITS
@@ -109,14 +112,14 @@
 .benefits-list-item {
 }
 .benefits-h3 {
-  color:  #2e2f42;
+  color: var(--main-color-text);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .benefits-text {
-  color: #434455;
+  color: var(--second-color-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -130,7 +133,7 @@
 .product-section {
 }
 .product-h2 {
-  color: #2e2f42;
+  color: var(--main-color-text);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -148,7 +151,7 @@
 .team {
 }
 .team-h2 {
-  color: #2e2f42;
+  color: var(--main-color-text);
   text-align: left;
   font-size: 36px;
   font-weight: 700;
@@ -159,7 +162,7 @@
 .team-list-item {
 }
 .team-h3 {
-  color: #2e2f42;
+  color: var(--main-color-text);
   text-align: left;
   font-size: 20px;
   font-weight: 500;
@@ -167,7 +170,7 @@
   letter-spacing: 0.02em;
 }
 .team-list-text {
-  color: #434455;
+  color: var(--second-color-text);
   text-align: left;
   font-size: 16px;
   font-weight: 400;
@@ -175,19 +178,18 @@
   letter-spacing: 0.02em;
 }
 .footer {
-  background: #2e2f42;
+  background: var(--main-color-text);
 }
 .footer-logo-dark {
-  color: #f4f4fd;
+  color: var(--color-on-dark);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer-text {
-  color: #f4f4fd;
+  color: var(--color-on-dark);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -210,24 +212,24 @@
 .cover {
 }
 .portfolio-btn:active {
-  background-color: #2e2f42;
+  background-color: var(--main-color-text);
 }
 .portfolio-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--background-button);
 }
 .service-list-item {
 }
 .service {
 }
 .service-caption {
-  color: #2e2f42;
+  color: var(--main-color-text);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .service-descr {
-  color: #434455;
+  color: var(--second-color-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
