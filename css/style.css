@@ -1,11 +1,10 @@
-:root{
-  --main-color-text:#2e2f42;
+:root {
+  --main-color-text: #2e2f42;
   --second-color-text: #434455;
-  --accent-color:#404BBF;
+  --accent-color: #404bbf;
   --color-on-dark: #f4f4fd;
   --background-button: #404bbf;
   --background-color: #fff;
-
 }
 .list {
   list-style: none;
@@ -15,8 +14,8 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
-  color: var(--main-color-text);
-  background-color: var(--background-color);
+  color: #434455;
+  background-color: #fff;
 }
 /**
   |============================
@@ -26,18 +25,18 @@
 .header-nav {
 }
 .nav-link {
-color: var(--main-color-text);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5;
-letter-spacing: 0.02em;
+  color: var(--main-color-text);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .contact-link {
   color: var(--second-color-text);
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -45,10 +44,9 @@ letter-spacing: 0.02em;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-   font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: 0.03em
-  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .header-logo-light {
   color: var(--main-color-text);
@@ -56,7 +54,7 @@ letter-spacing: 0.02em;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.2;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .list {
@@ -65,14 +63,19 @@ letter-spacing: 0.02em;
 }
 .list-adress {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contact-link:active, 
-.contact-link:hover{color: var(--accent-color);}
+.contact-link:active,
+.contact-link:hover {
+  color: #404bbf;
+}
 .nav-link:active,
-.nav-link:hover{color: var(--accent-color);}
+.nav-link:hover {
+  color: var(--accent-color);
+}
 /**
   |============================
   | HERO
@@ -82,6 +85,7 @@ letter-spacing: 0.02em;
   background: var(--main-color-text);
 }
 .hero-section-h1 {
+  font-family: "Roboto", sans-serif;
   color: var(--background-color);
   text-align: center;
   font-size: 56px;
@@ -90,16 +94,20 @@ letter-spacing: 0.02em;
   letter-spacing: 0.02em;
 }
 .hero-btn {
-background-color:  #4D5AE5;
+  font-family: "Roboto", sans-serif;
+  background-color: #4d5ae5;
   color: var(--background-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
-.hero-btn:active
-.hero-btn:hover{background-color: #404BBF}
+.hero-btn:active,
+.hero-btn:hover {
+  background-color: #404bbf;
+}
 /**
   |============================
   | BENEFITS
@@ -185,32 +193,18 @@ background-color:  #4D5AE5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-text {
   color: var(--color-on-dark);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.17;
   letter-spacing: 0.02em;
 }
-.header-nav {
-}
-.link {
-}
-.logo {
-}
-.header-logo-light {
-}
-.list {
-}
-.header-list-item {
-}
-.list-adress {
-}
-.cover {
-}
+
 .portfolio-btn:active {
   background-color: var(--main-color-text);
 }
