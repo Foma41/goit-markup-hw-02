@@ -159,19 +159,21 @@
   |============================
 */
 .team {
+  background-color: #f4f4fd;
 }
-.team-h2 {
+.team-title {
   color: var(--main-color-text);
-  text-align: left;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .team-list-item {
 }
-.team-h3 {
+.team-title-name {
+  background-color: #ffffff;
   color: var(--main-color-text);
   text-align: left;
   font-size: 20px;
