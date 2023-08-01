@@ -86,7 +86,7 @@
 .hero-section {
   background: var(--main-color-text);
 }
-.hero-section-h1 {
+.hero-section-h-one {
   font-family: "Roboto", sans-serif;
   color: var(--background-color);
   text-align: center;
@@ -117,11 +117,11 @@
 */
 .benefits-section {
 }
-.benefits-h2 {
+.benefits-h-two {
 }
 .benefits-list-item {
 }
-.benefits-h3 {
+.benefits-h-three {
   color: var(--main-color-text);
   font-size: 20px;
   font-weight: 500;
@@ -142,7 +142,7 @@
 */
 .product-section {
 }
-.product-h2 {
+.product-h-two {
   color: var(--main-color-text);
   text-align: center;
   font-size: 36px;
