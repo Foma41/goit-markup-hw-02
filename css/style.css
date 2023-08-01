@@ -162,6 +162,7 @@
   background-color: #f4f4fd;
 }
 .team-title {
+  background-color: #ffffff;
   color: var(--main-color-text);
   text-align: center;
   font-size: 36px;
@@ -170,7 +171,7 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.team-list-item {
+.team-list-item {background-color: #ffffff;
 }
 .team-title-name {
   background-color: #ffffff;
@@ -225,7 +226,7 @@
 }
 .portfolio-btn:focus {
   color: #ffffff ;
-  background-color: var(--main-color-text);
+  background-color: var(--background-button);
 }
 .portfolio-btn:hover {
   color: #ffffff;
