@@ -50,12 +50,12 @@ body {
 
 }
 .adress {
-
+font-style: normal;
 }
 .header-list-item {
 }
 .list-adress {
-  color: var(--second-color-text);
+  color: #434455 ;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -197,6 +197,7 @@ body {
   |============================
 */
 .portfolio-btn{
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
