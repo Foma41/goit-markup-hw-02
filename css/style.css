@@ -50,11 +50,12 @@ body {
 
 }
 .adress {
-  font-style: normal;
+
 }
 .header-list-item {
 }
 .list-adress {
+  color: var(--second-color-text);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
