@@ -12,7 +12,7 @@
 .link {
   text-decoration: none;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
@@ -26,19 +26,15 @@
 }
 .nav-link {
   color: var(--main-color-text);
-  font-family: Roboto;
+
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .contact-link {
-  color: var(--second-color-text);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+
 }
 .logo {
   color: #4d5ae5;
@@ -51,12 +47,7 @@
 }
 .header-logo-light {
   color: var(--main-color-text);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+
 }
 .adress {
   font-style: normal;
@@ -66,7 +57,6 @@
 .list-adress {
   font-size: 16px;
   font-weight: 500;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -87,8 +77,7 @@
   background: var(--main-color-text);
 }
 .hero-section-h-one {
-  font-family: "Roboto", sans-serif;
-  color: var(--background-color);
+  color: #fff;
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -129,9 +118,7 @@
   letter-spacing: 0.02em;
 }
 .benefits-text {
-  color: var(--second-color-text);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -195,12 +182,6 @@
 }
 .footer-logo-dark {
   color: var(--color-on-dark);
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer-text {
   color: var(--color-on-dark);
@@ -215,7 +196,6 @@
   |============================
 */
 .portfolio-btn{
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -224,10 +204,7 @@
   background-color: #f4f4fd;
   cursor: pointer; 
 }
-.portfolio-btn:focus {
-  color: #ffffff ;
-  background-color: var(--background-button);
-}
+.portfolio-btn:focus,
 .portfolio-btn:hover {
   color: #ffffff;
   background-color: var(--background-button);
@@ -246,7 +223,6 @@
 .service-descr {
   color: var(--second-color-text);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
