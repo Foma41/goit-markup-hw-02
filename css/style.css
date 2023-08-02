@@ -53,16 +53,17 @@ font-style: normal;
 .header-list-item {
 }
 .list-adress {
-  color: #434455 ;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.contact-link {
+  color: var(--second-color-text);}
 .contact-link:focus,
-.contact-link:hover {
-  color: #404bbf;
-}
+.contact-link:hover{
+  color: var(--background-button);
+ }
 .nav-link:focus,
 .nav-link:hover {
   color: var(--accent-color);
