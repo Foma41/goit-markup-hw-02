@@ -26,9 +26,7 @@ body {
 }
 .nav-link {
   color: var(--main-color-text);
-
   font-size: 16px;
-
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -187,7 +185,6 @@ font-style: normal;
 .footer-text {
   color: var(--color-on-dark);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
